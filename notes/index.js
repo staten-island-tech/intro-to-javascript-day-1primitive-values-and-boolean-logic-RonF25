@@ -44,7 +44,7 @@ let falseStatement = false;*/
 //console.log(age <= 15 || age > 19); // || means or
 // &&=both
 ///////If statements
-let school = "Middle";
+/*let school = "Middle";
 if(school === "Elementary"){
     console.log("You are in k-5")
 } else if (school === "Middle"){
@@ -53,4 +53,44 @@ if(school === "Elementary"){
     console.log("your are in HS");
 }
 let ron= "Ron";
-console.log(ron !== "Ema");//!== not equal
+console.log(ron !== "Ema");//!== not equal*/
+
+
+////Green, Yellow, Red light
+/*let light = "green";
+if(light === "green"){
+    console.log("Go");
+} else if(light === "yellow") {
+    console.log("Caution");
+} else if(light === "red"){
+    console.log("Stop");
+} else {
+    console.log("error");
+}*/
+
+////Milk
+/*let isKristyLI = true;
+let isBaoLI= false;
+
+
+if(isKristyLI && isBaoLI )
+{
+    console.log("both get almond milk");
+} else if(isKristyLI || isBaoLI) {
+    console.log("one gets almond milk and the other gets milk");
+} else {
+    console.log("both get milk");
+}*/
+
+//// cupcake
+
+/*let currtemp = 72;
+if(currtemp < 68 ) {
+    console.log("too cold");
+} else if(currtemp >= 68 && currtemp <= 72) {
+    console.log("perfect");
+} else if(currtemp >72 && currtemp <= 76) {
+    console.log("warm");
+} else if(currtemp > 76){
+    console.log("too hot");
+}*/
