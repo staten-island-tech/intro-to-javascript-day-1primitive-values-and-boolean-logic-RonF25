@@ -83,7 +83,6 @@ if(isKristyLI && isBaoLI )
 }*/
 
 //// cupcake
-
 /*let currtemp = 72;
 if(currtemp < 68 ) {
     console.log("too cold");
@@ -94,3 +93,59 @@ if(currtemp < 68 ) {
 } else if(currtemp > 76){
     console.log("too hot");
 }*/
+//////////functions
+/*function test(){
+    console.log("TEST");
+}
+test();*/
+/*function argument(n1,n2){
+    console.log(n1,n2);
+}
+argument("val", "eric");*/ ///better way
+/*const add = function(x,y){
+    return x+y; // this ends function
+
+}
+console.log(add(10, 3));*/
+/*const hello = function() {
+    alert("hello");
+};
+const bye = function() {
+    alert("Bye";)
+};
+const beatles = function() {
+    hello();
+    bye();
+    hello();
+}
+beatles();*/
+
+////scope
+/*const name = "michael"  /// global space
+function makeFunc(){
+    const name = "Sarah"; // function scope
+    function displayName() {
+        //console.log(name);  ///inner function can 
+                            ///access outer function
+        alert(name);
+    }
+    //displayName();
+    return displayName;
+}
+const myFunc = makeFunc(); ///closure
+MyFunc();*/
+
+////arrays
+const names = ["diego", "Frid", "Chris", "val", "Hao"];
+/// uses zero index, if want to call frid, use name[0]
+names.push("caroline");
+names.forEach(name => console.log(name));
+names.filter(/*some code). forEach(el () => console.log el))
+////spread operator)*/)
+
+const numbers = [1,2,3];
+
+const add = function(x,y,z) {
+return x + y + z;
+};
+console.log(add(... numbers));
