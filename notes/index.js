@@ -136,16 +136,42 @@ const myFunc = makeFunc(); ///closure
 MyFunc();*/
 
 ////arrays
-const names = ["diego", "Frid", "Chris", "val", "Hao"];
+/*const names = ["diego", "Frid", "Chris", "val", "Hao"];
 /// uses zero index, if want to call frid, use name[0]
 names.push("caroline");
 names.forEach(name => console.log(name));
 names.filter(/*some code). forEach(el () => console.log el))
-////spread operator)*/)
+////spread operator))*/
 
-const numbers = [1,2,3];
+/*const numbers = [1,2,3];
 
 const add = function(x,y,z) {
 return x + y + z;
 };
-console.log(add(... numbers));
+console.log(add(... numbers));*/
+
+////Challenge 1
+/*let students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa","Richard"];
+students.forEach(student => {
+    if(student.length > 5){
+        console.log(student)
+    }
+   
+}
+    );*/
+
+/////Challenge 2
+//part 1
+/*let students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa","Richard"];
+console.log(students.includes("junshen"));*/
+///part 2
+/*let students = ["Riya", "Omor", "Alan","Jaiyu", "Michael", "Lisa","Richard"];
+
+function IsSavvaOrAlanInArray(name){
+    return (name=="Alan" || name=="Savva");
+}
+console.log( students.some(IsSavvaOrAlanInArray));*/
+
+
+
+
